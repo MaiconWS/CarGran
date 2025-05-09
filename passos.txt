@@ -1,0 +1,8 @@
+git config --global user.name MaiconWS
+git config --global user.email maicon.w312@outlook.com
+
+Criar um projeto API
+dotnet new webapi -o CarGranAPI --use-controllers
+
+Get = buscar dados
+Set = escreve dados
