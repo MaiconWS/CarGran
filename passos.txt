@@ -6,3 +6,6 @@ dotnet new webapi -o CarGranAPI --use-controllers
 
 Get = buscar dados
 Set = escreve dados
+
+
+dotnet add package Swashbuckle.AspNetCore

@@ -16,7 +16,7 @@ namespace CarGranAPI.Models
         public short anoModelo { get; set; }
 
         [Required]
-        [Column(TypeName = "numeric(10,2)")]
+        [Column(TypeName = "numeric(10,2)")]    
         public decimal Valor { get; set; }
 
         [StringLength(7)]
